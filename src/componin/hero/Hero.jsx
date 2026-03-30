@@ -5,10 +5,10 @@ import { GoDotFill } from 'react-icons/go';
 const Hero = () => {
     return (
         <div className=''>
-            <div className='flex justify-between py-[40px] w-11/12 mx-auto'>
+            <div className='flex  justify-between py-[40px] w-11/12 mx-auto sm:flex-col lg:flex-row'>
                 <div className="left flex flex-col  justify-center  align-middle space-y-4 ">
                     <p className='text-[#9514FA] flex gap-2 items-center bg-[#E1E7FF] rounded-full w-[276px] px-1'><GoDotFill></GoDotFill> New: AI-Powered Tools Available</p>
-                    <h2 className='text-[72px] font-bold leading-[84px] '>Supercharge Your <br /> Digital Workflow</h2>
+                    <h2 className='text-[26px] font-bold lg:leading-[84px] sm:text-[20px] md:text-[20px] lg:text-[72px] '>Supercharge Your <br /> Digital Workflow</h2>
                     <p className='text-[#627382] '>Access premium AI tools, design assets, templates, and productivity <br />
                        software—all in one place. Start creating faster today. <br />
                        Explore Products
@@ -22,7 +22,7 @@ const Hero = () => {
                     <img src="../../../assets/banner.png" alt="" />
                 </div>
             </div>
-            <div className=' bg-gradient-to-r from-[#4F39F6] to-[#9514FA] flex justify-between text-white text-center py-[70px] '>
+            <div className=' bg-gradient-to-r from-[#4F39F6] to-[#9514FA] flex justify-between text-white text-center py-[60px] '>
               
              <div class="flex-1 justify-center">
               <h2 class="text-6xl font-bold">50K+</h2>
