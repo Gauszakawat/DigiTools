@@ -20,7 +20,7 @@ const Workflow = () => {
 
            <div className='w-11/12 mx-auto'>
 
-             <div className="frist flex gap-3 justify-between mt-8 pb-5">
+             <div className="frist flex flex-col lg:flex-row md:flex-row-2 gap-3 justify-between mt-8 pb-5">
                 <div className="one space-y-2">
                     <h2 className='text-3xl font-bold'>DigiTools</h2>
                     <p className=' opacity-80 '>Premium digital tools for creators, <br /> professionals, and businesses. Work smarter <br /> with our suite of powerful tools.</p>
@@ -49,7 +49,7 @@ const Workflow = () => {
                 <div className="five">
                      <h2 className='text-1xl font-semibold mb-2'>Social Links</h2>
                      <div className='flex gap-2'>
-                        <img src="../../../assets/Instagram (1).png" alt="" />
+                        <img src="../../../assets/Instagram.png" alt="" />
                         <img src="../../../assets/Facebook.png" alt="" />
                         <img src="../../../assets/Twitter.png" alt="" />
                      </div>

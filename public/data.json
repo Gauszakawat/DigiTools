@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Starter",
+    "description": "Basic AI writing tool for beginners to generate simple content quickly.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "New",
+    "img": "https://media.istockphoto.com/id/1495008087/photo/cute-robot-holding-a-pencil-to-write-a-message-on-paper-with-blue-background.jpg?s=2048x2048&w=is&k=20&c=2mvOT9Y0q8ewKavvibhaF4EL9qIo3q5-rIJ9TdJNlgU=",
+    "features1": "10 AI generations/day",
+    "features2": "Basic templates",
+    "features3": "Grammar check"
+  },
+  {
+    "id": 2,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "img": "https://media.istockphoto.com/id/2157815027/photo/scammer-alert-and-warning-caution-signs-cyber-attack-on-online-network-error-system.jpg?s=2048x2048&w=is&k=20&c=wRX-g-a85ZeAPECQTE1-T2ReNOaJ6YTjE22FGcpYIHE=",
+    "features1": "Unlimited generations",
+    "features2": "50+ templates",
+    "features3": "Grammar checker"
+  },
+  {
+    "id": 3,
+    "name": "AI Writing Business",
+    "description": "Advanced AI solution for teams and businesses with collaboration tools.",
+    "price": 79,
+    "period": "monthly",
+    "tag": "Popular",
+    "img": "https://media.istockphoto.com/id/1518671364/photo/woman-and-ai-robot-working-together.jpg?s=2048x2048&w=is&k=20&c=-7KewcbRb3Q8syXy-aU5OQ9_uWEI7p7SAz7VZAn3zKo=",
+    "features1": "Team access",
+    "features2": "Priority support",
+    "features3": "Advanced templates"
+  },
+  {
+    "id": 4,
+    "name": "AI Writing Enterprise",
+    "description": "Full-scale AI writing platform with enterprise-grade performance and security.",
+    "price": 149,
+    "period": "monthly",
+    "tag": "Premium",
+    "img": "https://media.istockphoto.com/id/1661927281/photo/ai-artificial-intelligence-concept-with-3d-rendered-text-with-glow-effect-on-dark-background.jpg?s=2048x2048&w=is&k=20&c=XzjoAUTaVX6lFKPXvKkjrcuK7dy9wGMlEPk6kbOBZfU=",
+    "features1": "Unlimited users",
+    "features2": "API access",
+    "features3": "Dedicated support"
+  },
+  {
+    "id": 5,
+    "name": "AI Writing Lite",
+    "description": "Lightweight AI writing tool for quick and simple tasks.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "Budget",
+    "img": "https://media.istockphoto.com/id/2186166220/photo/concept-of-ai-chatbot-interface-generate-answer-prompt-on-productivity-and-fitness-advice-ai.jpg?s=2048x2048&w=is&k=20&c=74nJkUr2Bi1jSDGxzvBBRFaC2jom-qsRKHbX_WDdIqQ=",
+    "features1": "5 generations/day",
+    "features2": "Limited templates",
+    "features3": "Basic support"
+  },
+  {
+    "id": 6,
+    "name": "AI Writing Yearly Pro",
+    "description": "Pro plan with yearly billing and discounted pricing.",
+    "price": 290,
+    "period": "yearly",
+    "tag": "Save 20%",
+    "img": "https://images.unsplash.com/photo-1740560516633-4d5a7d98c8f4?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features1": "Unlimited access",
+    "features2": "All templates",
+    "features3": "Priority support"
+  },
+  {
+    "id": 7,
+    "name": "AI Writing Lifetime",
+    "description": "One-time payment for lifetime access to premium AI writing features.",
+    "price": 199,
+    "period": "one-time",
+    "tag": "Limited",
+    "img": "https://images.unsplash.com/photo-1706466614967-f4f14a3d9d08?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features1": "Lifetime access",
+    "features2": "All features",
+    "features3": "No subscription"
+  },
+  {
+    "id": 8,
+    "name": "AI Copywriting Kit",
+    "description": "Specialized AI tool for marketing and sales copywriting.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Hot",
+    "img": "https://images.unsplash.com/photo-1605462979380-48f1ea3b3ff1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features1": "Ad copy generator",
+    "features2": "Email templates",
+    "features3": "SEO tools"
+  },
+  {
+    "id": 9,
+    "name": "AI Blogging Master",
+    "description": "Complete blogging solution with AI-powered content generation.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "Trending",
+    "img": "https://images.unsplash.com/photo-1661595676644-6d03dff497c2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "features1": "Long-form writing",
+    "features2": "SEO optimization",
+    "features3": "Auto outlines"
+  }
+]

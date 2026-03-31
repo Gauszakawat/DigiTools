@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoCartOutline } from 'react-icons/io5';
 
-const Nabver = () => {
+const Nabver = ({countiteam}) => {
     return (
         <div className=' shadow-sm'>
             <div className="navbar  w-11/12 mx-auto">
@@ -35,7 +35,15 @@ const Nabver = () => {
     
     <div className='flex gap-3 items-center'>
         <IoCartOutline></IoCartOutline>
-        {/* <p className=' absolute top-[15px] right-42 bg-red-500 rounded-full px-[4px] text-white  '>3</p> */}
+
+        {
+          countiteam >= 1 && (
+            <p className=' absolute top-[15px] right-42 bg-red-500 rounded-full px-[4px] text-white  '>{countiteam}</p>)
+          
+          
+        }
+
+
         <p className=' font-semibold '>Login</p>
     </div>
     <a className="btn rounded-full bg-[#4F39F6] text-white">Get Started</a>
