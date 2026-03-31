@@ -15,6 +15,16 @@ const Addedproductslist = ({setaddedproducts , addedproducts, countiteam, setcou
       settotalP(newpriceafterfilter);
 
    }
+
+   const alldeletebtn=()=>{
+    const newno = countiteam - countiteam;
+    const newpriceafterfilter = totalP - totalP;
+     
+     setaddedproducts([]);
+     setcountiteam(newno);
+      settotalP(newpriceafterfilter);
+
+   }
    
     return (
         <div>
@@ -47,7 +57,7 @@ const Addedproductslist = ({setaddedproducts , addedproducts, countiteam, setcou
                     <h4>Total:</h4>
                     <h1 className='font-bold'>$ {totalP}</h1>
                   </div>
-                  <button className='w-full btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full py-2'>Proceed to Checkout</button>
+                  <button onClick={alldeletebtn} className='w-full btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full py-2'>Proceed to Checkout</button>
                       </div>
             
         </div>
