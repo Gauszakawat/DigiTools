@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { FaCheck } from 'react-icons/fa';
 import { IoCheckmark } from 'react-icons/io5';
+import { toast } from 'react-toastify';
 
 const Productslist = ({product, totalP, settotalP, countiteam, setcountiteam, addedproducts, setaddedproducts}) => {
  const [added, setadded] = useState(false)
@@ -9,7 +10,8 @@ const Productslist = ({product, totalP, settotalP, countiteam, setcountiteam, ad
         setadded(true)
         const newcount = countiteam + 1;
         setcountiteam(newcount)
-        alert(`${product.name} is Added Your Cart`)
+        // `${product.name} is Added Your Cart`
+        toast(`${product.name} is Added Your Cart`)
 
         setaddedproducts([...addedproducts, product])
 

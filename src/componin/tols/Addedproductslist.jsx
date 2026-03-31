@@ -1,5 +1,6 @@
 import React from 'react';
 import Addedforproducts from './addedforproducts';
+import { toast } from 'react-toastify';
 
 const Addedproductslist = ({setaddedproducts , addedproducts, countiteam, setcountiteam, totalP, settotalP}) => {
 
@@ -13,6 +14,7 @@ const Addedproductslist = ({setaddedproducts , addedproducts, countiteam, setcou
       setaddedproducts(filterlist);
       setcountiteam(newno);
       settotalP(newpriceafterfilter);
+      toast('Delete Iteam')
 
    }
 
@@ -23,16 +25,17 @@ const Addedproductslist = ({setaddedproducts , addedproducts, countiteam, setcou
      setaddedproducts([]);
      setcountiteam(newno);
       settotalP(newpriceafterfilter);
+      toast('Delete all Iteam')
 
    }
    
     return (
         <div>
            <div className='  w-full  text-start space-y-4  '>
-                    <div className="carditeam  p-3 rounded-2xl py-3   items-center px-2">
+                    <div className="carditeam  p-3 rounded-2xl py-3 mb-2 mt-1  items-center px-2">
                          {
                             addedproducts.map(adedProduc => 
-                                <div className="carditeam bg-[#F9FAFC] p-3 rounded-2xl py-3 flex    justify-between items-center px-2">
+                                <div className="carditeam mb-2 bg-[#F9FAFC] p-3 rounded-2xl py-3 flex    justify-between items-center px-2">
 
                      <div className="left flex gap-5">
                         <img className='w-[50px] bg-white p-1 rounded-full' src={adedProduc.img} alt="" />

@@ -7,7 +7,7 @@ const Products = ({fetchproducts, countiteam, totalP, settotalP, setcountiteam, 
   const productsdata = use(fetchproducts)
   // console.log(productsdata.id);
     return (
-        <div className='flex space-x-2 justify-center grid grid-cols-3 space-y-8'>
+        <div className='flex space-x-2 justify-center grid grid-cols-1 md:grid-cols-3 space-y-8'>
             {productsdata.map(product => {
 
               return <Productslist product={product} settotalP={settotalP} totalP={totalP} countiteam={countiteam} setcountiteam={setcountiteam} addedproducts={addedproducts} setaddedproducts={setaddedproducts} ></Productslist>

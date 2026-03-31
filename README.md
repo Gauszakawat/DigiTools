@@ -1,16 +1,17 @@
-# React + Vite
+প্রজেক্টের নাম: নেক্সটজেন সলিউশনস Digital Tols
+প্রজেক্টের সংক্ষিপ্ত বর্ণনা
+এটি একটি আধুনিক ই-কমার্স প্ল্যাটফর্ম যা মূলত বিভিন্ন ডিজিটাল প্রোডাক্ট এবং সার্ভিস বিক্রির জন্য তৈরি করা হয়েছে। এখানে ব্যবহারকারীরা খুব সহজেই বিভিন্ন সাবস্ক্রিপশন প্ল্যান বা প্রোডাক্ট দেখে সেগুলো কার্টে যুক্ত করতে পারবেন। প্রজেক্টটিতে রিয়েল-টাইম আপডেট এবং ইউজার ফ্রেন্ডলি ইন্টারফেসের ওপর বিশেষ নজর দেওয়া হয়েছে, যাতে ক্রেতারা কোনো ঝামেলা ছাড়াই তাদের পছন্দের সেবাটি বেছে নিতে পারেন।
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ব্যবহৃত টেকনোলজি
+React.js: ওয়েবসাইটটিকে দ্রুত এবং ডাইনামিক করার জন্য।
 
-Currently, two official plugins are available:
+Tailwind CSS ও DaisyUI: আধুনিক ও সুন্দর ডিজাইনের জন্য।
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+React-Toastify: ব্যবহারকারীকে বিভিন্ন কাজের ফিডব্যাক (যেমন: সাকসেস মেসেজ) দেওয়ার জন্য।
 
-## React Compiler
+JSON: প্রোডাক্টের সকল তথ্য ম্যানেজ করার জন্য।
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+প্রজেক্টের প্রধান ৩টি বৈশিষ্ট্য
+১. ইন্টারেক্টিভ কার্ট সিস্টেম: ইউজার যখনই কোনো প্রোডাক্ট কার্টে যোগ করবেন, তখনই নেভবার এবং কার্ট সেকশনে সেটি আপডেট হয়ে যাবে। এছাড়াও 'Proceed to Checkout' বাটনে ক্লিক করলে নিমিষেই কার্ট ক্লিয়ার হয়ে যায়।
+২. ডাইনামিক টগলিং ও ফিল্টারিং: ব্যবহারকারী চাইলে প্রোডাক্ট লিস্ট এবং কার্ট সেকশনের মধ্যে খুব সহজেই সুইচ করতে পারবেন, যা সাইটটিকে আরও সহজবোধ্য করে তোলে।
+৩. স্মার্ট নোটিফিকেশন ও রেসপনসিভ ডিজাইন: প্রতিটি অ্যাকশনের জন্য (যেমন: প্রোডাক্ট রিমুভ বা অ্যাড) সুন্দর টোস্ট নোটিফিকেশন দেখাবে। এছাড়া ওয়েবসাইটটি মোবাইল, ট্যাবলেট এবং পিসি—সব ধরনের ডিভাইসেই নিখুঁতভাবে কাজ করবে।
