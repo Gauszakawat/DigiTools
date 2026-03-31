@@ -23,7 +23,6 @@ const Addedproductslist = ({setaddedproducts , addedproducts, countiteam, setcou
      setaddedproducts([]);
      setcountiteam(newno);
       settotalP(newpriceafterfilter);
-    //   hello
 
    }
    
