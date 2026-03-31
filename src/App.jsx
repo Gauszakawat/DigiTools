@@ -17,6 +17,7 @@ function App() {
 const fetchproducts = fetchproductsapi();
 const [countiteam, setcountiteam] = useState(0);
 const [addedproducts, setaddedproducts] = useState([]);
+const [totalP, settotalP] = useState(0);
 
   return (
     <>
@@ -24,7 +25,7 @@ const [addedproducts, setaddedproducts] = useState([]);
       <Hero></Hero>
       
       <Suspense fallback={<span className="loading loading-infinity loading-xl"></span>}>
-        <Tols fetchproducts={fetchproducts} countiteam={countiteam} setcountiteam={setcountiteam} addedproducts={addedproducts} setaddedproducts={setaddedproducts} ></Tols>
+        <Tols totalP={totalP} settotalP={settotalP} fetchproducts={fetchproducts} countiteam={countiteam} setcountiteam={setcountiteam} addedproducts={addedproducts} setaddedproducts={setaddedproducts} ></Tols>
       </Suspense>
 
       <Steps></Steps>

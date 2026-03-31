@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Products from './Products';
 import Card from './card';
 
-const Tols = ({fetchproducts,countiteam, setcountiteam, addedproducts, setaddedproducts}) => {
+const Tols = ({fetchproducts,countiteam, totalP, settotalP, setcountiteam, addedproducts, setaddedproducts}) => {
     const [btnaction, setbtnaction] = useState('bg');
     return (
         <div className='w-11/12 mx-auto py-[50px]'>
@@ -15,9 +15,9 @@ const Tols = ({fetchproducts,countiteam, setcountiteam, addedproducts, setaddedp
                 </div>
                 <div className='mt-5'>
                  {
-                    btnaction == 'bg' ? <Products fetchproducts={fetchproducts} countiteam={countiteam} setcountiteam={setcountiteam} addedproducts={addedproducts} setaddedproducts={setaddedproducts}></Products>
+                    btnaction == 'bg' ? <Products totalP={totalP} settotalP={settotalP} fetchproducts={fetchproducts} countiteam={countiteam} setcountiteam={setcountiteam} addedproducts={addedproducts} setaddedproducts={setaddedproducts}></Products>
                     : 
-                     <Card fetchproducts={fetchproducts} setaddedproducts={setaddedproducts} addedproducts={addedproducts} > </Card> 
+                     <Card totalP={totalP} settotalP={settotalP} countiteam={countiteam} setcountiteam={setcountiteam} fetchproducts={fetchproducts} setaddedproducts={setaddedproducts} addedproducts={addedproducts} > </Card> 
                  }
 
                 </div>

@@ -3,15 +3,19 @@ import React, { useState } from 'react';
 import { FaCheck } from 'react-icons/fa';
 import { IoCheckmark } from 'react-icons/io5';
 
-const Productslist = ({product, countiteam, setcountiteam, addedproducts, setaddedproducts}) => {
+const Productslist = ({product, totalP, settotalP, countiteam, setcountiteam, addedproducts, setaddedproducts}) => {
  const [added, setadded] = useState(false)
-    const buynowbtnfuntion = ()=>{
+    const buynowbtnfuntion = (product)=>{
         setadded(true)
         const newcount = countiteam + 1;
         setcountiteam(newcount)
         alert(`${product.name} is Added Your Cart`)
 
         setaddedproducts([...addedproducts, product])
+
+        const totalPrice = totalP + product.price;
+        console.log(totalPrice);
+        settotalP(totalPrice);
     }
     return (
         <div>
@@ -49,7 +53,7 @@ const Productslist = ({product, countiteam, setcountiteam, addedproducts, setadd
 
             <div className="mt-6">
               <button className={`btn btn-primary  rounded-full w-full ${added ? 'bg-white text-[#4F39F6]' : 'bg-gradient-to-r from-[#4F39F6] to-[#9514FA]'}`}
-              onClick={buynowbtnfuntion}>
+              onClick={()=> buynowbtnfuntion(product)}>
                 { added ? 'Added Your Cart' : 'Buy Now'}
                 
                 </button>
